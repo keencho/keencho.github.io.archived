@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# 2019-03-05
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: keencho
+google_analytics: UA-136321927-1
+title: keencho's blog
+sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: keencho 블로그
+
+description: 공부한 것들 정리하는 블로그
+author:
+  name: keencho
+  email: seyoung1231@naver.com
+  github: keencho
+  # twitter: dbtek
+  # pinterest: asd123
+  # linkedin: asd123
+  bio: 공부한 것들 정리하려 합니다.
+  email_md5: 86469c544fc394aa41136d33de5ab615
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
