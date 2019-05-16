@@ -20,7 +20,7 @@ comments: true
 ~~~sql
 $sql="select category.name as categoryname, division.name as divisionname, section.name as sectionname,
 	productinfo.modelname as productmodelname, productinfo.price as productprice, productinfo.volt as productvolt, productinfo.watt as productwatt, productinfo.date as productdate,
-productinfo.size as productsize, productinfo.killogram as productkillogram, productinfo.color as productcolor, productinfo.feature as 		productfeature, productinfo.brand as productbrand, productinfo.madeby as productmadeby,
+	productinfo.size as productsize, productinfo.killogram as productkillogram, productinfo.color as productcolor, productinfo.feature as productfeature, productinfo.brand as productbrand, productinfo.madeby as productmadeby,
 	productinfo.income as productincome, productinfo.specification as productspecification, productinfo.kc1 as productkc1, productinfo.kc2 as productkc2,
 	productinfo.pic1 as productpic1, productinfo.pic2 as productpic2, productinfo.pic3 as productpic3, member.name as adminname, productsale.* from productsale
 	left join category on productsale.categoryno=category.no
