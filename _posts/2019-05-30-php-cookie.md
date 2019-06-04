@@ -25,6 +25,8 @@ if(isset($_COOKIE['today_view'])){ // today_view라는 쿠키가 존재하면
 		$i++;
 	}
 }
+// 여기까지의 소스를 모든 컨트롤러의 메소드의 붙여넣기
+
 // 저장된 쿠키값이 없을 경우 새로 쿠키를 저장하는 소스
 if(!isset($_COOKIE['today_view'])){
 	setcookie('today_view', $cookiePno, time() + 21600, "/");
