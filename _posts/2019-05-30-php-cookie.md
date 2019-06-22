@@ -2,7 +2,7 @@
 layout: post
 title: 쿠키를 이용한 php 최근본상품 구현
 categories: [php]
-tags: [php]
+tags: [php, Codeigniter]
 description: php에서 쿠키를 사용해 최근본 상품을 구현하기 위한 방법을 알아보자
 comments: true
 ---
