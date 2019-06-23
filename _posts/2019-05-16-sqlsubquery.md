@@ -2,7 +2,7 @@
 layout: post
 title: mysql 서브쿼리
 categories: [sql]
-tags: [sql, mysql]
+tags: [sql]
 description: mysql에서 간단한 서브쿼리 사용법
 comments: true
 ---
