@@ -18,9 +18,9 @@ class ListViewController: UITableViewController {
     var typeVar = "ALL"
     var result: AFDataResponse<Any>?
     
-    let header: HTTPHeaders = ["Cookie" :  "PTK-TOKEN=MTE5MTYxNjM4ODo2N2JrbmsyN2g1ZjRiNjRoNG9kOTpmN2YxOTZkZGU0MzdlNGJjNzJmMzYxMmM3YTQ3Yzg3MA;Max-Age=1209600;path=/ptk;Secure;HttpOnly", "X-Requested-With" : "XMLHttpRequest"]
+    let header: HTTPHeaders = ["Cookie" :  "토큰값", "X-Requested-With" : "XMLHttpRequest"]
     
-    let url = "https://ptk.goodsflow.com/ptk/rest/trans/trace/list/v3"
+    let url = "API 주소"
     
     let params = param(start: 0, limit: 10, type: "ALL")
     
