@@ -94,3 +94,5 @@ struct param: Encodable {
 }
 
 ~~~
+
+SwiftyJSON을 사용하지 않은 JSON 파싱, Alamofire을 이용한 HTTP 통신, KST로 맞춰져있지 않은 TimeZone 세팅
